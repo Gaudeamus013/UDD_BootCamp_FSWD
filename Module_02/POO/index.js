@@ -1,6 +1,6 @@
 // Definición de la clase Pregunta
 class Pregunta {
-  constructor(pregunta, opciones, respuestaCorrecta) {
+  constructor(pregunta, opciones) {
     // Constructor de la clase Pregunta
     this.pregunta = pregunta; // Texto de la pregunta
     this.opciones = opciones; // Array de opciones para la pregunta

@@ -625,3 +625,7 @@ class SistemaEncuestas {
 1. **Instalación de Dependencias**: No es necesario instalar ninguna dependencia. Clona este repositorio a tu máquina local.
 2. **Ejecución**: Ejecuta el archivo JavaScript mediante `index.html` en tu navegador web.
 3. **Interacción**: Sigue las instrucciones en pantalla para crear, votar, editar o eliminar encuestas mediante la consola.
+
+## Autor
+
+Este proyecto fue creado por [Gaudeamus013](https://github.com/Gaudeamus013).

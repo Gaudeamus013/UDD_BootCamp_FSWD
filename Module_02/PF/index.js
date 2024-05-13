@@ -1,5 +1,5 @@
 // Función para crear una pregunta
-function crearPregunta(pregunta, opciones, respuestaCorrecta) {
+function crearPregunta(pregunta, opciones) {
     return {
       // Propiedades de la pregunta
       pregunta, // La pregunta en sí misma

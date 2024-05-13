@@ -4,7 +4,6 @@ function crearPregunta(pregunta, opciones, respuestaCorrecta) {
       // Propiedades de la pregunta
       pregunta, // La pregunta en sí misma
       opciones, // Array de opciones de respuesta
-      respuestaCorrecta, // La respuesta correcta (no se usa en este código)
       votos: new Map(), // Mapa para almacenar los votos para cada opción
       votosTotales: 0, // Contador para el total de votos
 

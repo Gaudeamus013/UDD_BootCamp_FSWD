@@ -93,15 +93,21 @@ Realizar pruebas A/B y optimizaciones continuas para mejorar la efectividad de l
 
 ## Detalles de Implementación
 
-### Funciones Principales
+### ¿Qué se va a construir?
 
-- **`crearPregunta(pregunta, opciones, respuestaCorrecta)`:** Esta función crea un objeto que representa una pregunta de la encuesta. Permite agregar votos a las opciones, calcular el porcentaje de votos y mostrar la pregunta y sus resultados.
+Para el desarrollo de este `landing` se ha generado inicialmente un prototipado simple
 
-- **`crearEncuesta(titulo, preguntas)`:** Crea un objeto que representa una encuesta con un título y un conjunto de preguntas. Permite realizar la encuesta, mostrando las preguntas, permitiendo votar y luego mostrando los resultados.
 
-- **`crearSistemaEncuestas()`:** Crea un sistema de encuestas con funcionalidades para agregar encuestas por defecto, mostrar un menú principal para interactuar con el sistema, crear nuevas encuestas, votar, mostrar resultados, editar y eliminar encuestas.
+![Diagram](https://github.com/Gaudeamus013/UDD_BootCamp_FSWD/blob/main/images/Diagrama%20perfumeria%20elegant.png) 
 
-### Solución Explicada Paso a Paso
+
+- **`Head`:** Esta apartado contiene el título de la página, que en esta oportunidad será "Perfumería Elegant".
+
+- **`Body`:** Este apartado se subdivide en su implementación en `header` (con la información del nombre de la perfumería y enlace a las secciones "Inicio", "Catálogo", "Nosotros" y "Contacto"), `aside` (con los enlaces que tratan temáticas propias en cuanto a conocimiento de perfumería) y `section` (logar del sitio donde se puede visualidar todo el contenido que se llama metiande los vínculos). 
+
+- **`Footer`:** Lugar del sitio donde se hace referencia a la empresa, el año y los derechos reservados.
+
+### Esquematización de la solución propuesta: Estructura del Proyecto
 
 1. **Creación de Preguntas y Encuestas:** La función `crearPregunta` permite crear preguntas individuales con sus opciones de respuesta. Luego, la función `crearEncuesta` agrupa estas preguntas en una encuesta con un título específico.
 

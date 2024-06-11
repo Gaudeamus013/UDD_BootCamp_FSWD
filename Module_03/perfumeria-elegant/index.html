@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumería Elegant</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans antialiased">
+    <!-- Encabezado -->
+    <header class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Perfumería Elegant</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" data-section="./navbar/inicio.html" class="hover:underline load-section">Inicio</a></li>
+                    <li><a href="#" data-section="./navbar/catalogo.html" class="hover:underline load-section">Catálogo</a></li>
+                    <li><a href="#" data-section="./navbar/nosotros.html" class="hover:underline load-section">Nosotros</a></li>
+                    <li><a href="#" data-section="./navbar/contacto.html" class="hover:underline load-section">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <div class="flex">
+        <!-- Barra Lateral -->
+        <aside class="w-1/4 bg-gray-100 p-4">
+            <h2 class="text-xl font-semibold mb-4">Acerca de Perfumería</h2>
+            <ul>
+                <li><a href="#" data-section="./aside/definicion.html" class="hover:underline load-section">¿Qué son los perfumes?</a></li>
+                <li><a href="#" data-section="./aside/nicho.html" class="hover:underline load-section">¿Qué es la perfumería nicho?</a></li>
+                <li><a href="#" data-section="./aside/familia_olfativa.html" class="hover:underline load-section">¿Cuáles son las Familias Olfativas?</a></li>
+                <li><a href="#" data-section="./aside/zoologist.html" class="hover:underline load-section">¿Por qué Zoologist?</a></li>
+            </ul>
+        </aside>
+
+        <!-- Contenido Dinámico -->
+        <main id="main-content" class="w-3/4 p-4">
+            <!-- El contenido dinámico se cargará aquí -->
+        </main>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-gray-800 text-white p-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Perfumería Elegant. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
